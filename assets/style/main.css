@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "reset.css";
+
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  margin: 10px auto;
+  max-width: 1000px;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+  border-radius: 6px;
+  box-shadow: 0px 10px 24px;
+}
+
+.header {
+  position: sticky;
+  top: 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+  background-color: rgb(221, 214, 203);
+  border-radius: 2px;
+}
+
+.header > a {
+  text-decoration: none;
+  color: black;
+}
+
+.header a:hover {
+  background: #00ccff;
+  color: antiquewhite;
+  border-radius: 3px;
+}
+
+.wrapper_block {
+  background-color: rgba(128, 128, 128, 0.274);
+  padding: 10px 0 0 0;
+}
+
+.id_city {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+
+.section__1,
+.section__2,
+.section__3,
+.section__4,
+.section__5,
+.section__6,
+.section__7,
+.section__8 {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+}
+
+.section__2,
+.section__4,
+.section__6,
+.section__8 {
+  flex-direction: row-reverse;
+}
+
+.city__name {
+  margin: 50px 0 150px 0;
+}
+
+.content {
+  height: 450px;
+  background-color: #00ccff;
+  padding: 0px 20px 0 20px;
+  flex: 1 0 360px;
+  font-size: 17px;
+  color: antiquewhite;
+}
+
+.img_Amsterdam {
+  background: url(../img/Amsterdam.jpg) no-repeat center/cover;
+}
+
+.img_Barcelona {
+  background: url(../img/Barcelona.jpg) no-repeat center/cover;
+}
+
+.img_Berlin {
+  background: url(../img/Berlin.jpg) no-repeat center/cover;
+}
+
+.img_Ibiza {
+  background: url(../img/Ibiza.jpg) no-repeat center/cover;
+}
+
+.img_Lisbon {
+  background: url(../img/Lisbon.jpg) no-repeat center/cover;
+}
+
+.img_Porto {
+  background: url(../img/Porto.jpg) no-repeat center/cover;
+}
+
+.img_Praha {
+  background: url(../img/Praha.jpg) no-repeat center/cover;
+}
+
+.img_Sans_souci {
+  background: url(../img/Sans_souci.jpg) no-repeat center/cover;
+}
+
+.img_Amsterdam,
+.img_Barcelona,
+.img_Berlin,
+.img_Ibiza,
+.img_Lisbon,
+.img_Porto,
+.img_Praha,
+.img_Sans_souci {
+  height: 450px;
+  flex: 1 0 400px;
+}
