@@ -11,6 +11,7 @@
   border: 1px solid rgba(0, 0, 0, 0.226);
   border-radius: 6px;
   box-shadow: 0px 10px 24px;
+  background-color: rgba(128, 128, 128, 0.274);
 }
 
 .header {
@@ -25,7 +26,14 @@
   border-radius: 2px;
 }
 
-.header > a {
+.Ams,
+.Bar,
+.Ber,
+.Ib,
+.Lis,
+.Por,
+.Pr,
+.San {
   text-decoration: none;
   color: black;
 }
@@ -68,13 +76,13 @@
 }
 
 .city__name {
-  margin: 50px 0 150px 0;
+  margin: 0 0 150px 0;
 }
 
 .content {
   height: 450px;
   background-color: #00ccff;
-  padding: 0px 20px 0 20px;
+  padding: 60px 20px 0 20px;
   flex: 1 0 360px;
   font-size: 17px;
   color: antiquewhite;
